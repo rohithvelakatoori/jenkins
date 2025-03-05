@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/jaikarT21/Formula1.git'
+                git 'https://github.com/rohithvelakatoori/jenkins.git'
             }
         }
         stage('Build') {
